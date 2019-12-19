@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class StartPage extends BasePage {
+
     public StartPage(WebDriver driver) {
         super(driver);
         this.driver = driver;

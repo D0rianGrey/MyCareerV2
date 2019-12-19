@@ -5,11 +5,9 @@ public class Constants {
     public static final String BASE_URL_ADMIN_TEST = "https://admin.vmtcs.cistest.local/";
     public static final String BASE_URL_ADMIN_STAGE = "https://admin-stage.softserveinc.com/";
 
-
     public static final String BASE_URL_MY_DEV = "https://my.vmdcs.cistest.local/";
     public static final String BASE_URL_MY_TEST = "https://admin.vmtcs.cistest.local/";
     public static final String BASE_URL_MY_STAGE = "https://admin-stage.softserveinc.com/";
-
 
     public static final String USER_DIRECTORY = System.getProperty("user.dir");
     public static final String OS_NAME = System.getProperty("os.name");

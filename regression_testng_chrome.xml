@@ -3,7 +3,7 @@
     <test name="Application Test" preserve-order="true">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="local.cistest.vmdcs.admin.testclasses.test"/>
+            <class name="test"/>
         </classes>
     </test>
 </suite>

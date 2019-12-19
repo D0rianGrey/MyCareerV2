@@ -1,4 +1,4 @@
-package local.cistest.vmdcs.base;
+package base;
 
 import local.cistest.vmdcs.utilities.Constants;
 import org.apache.logging.log4j.LogManager;

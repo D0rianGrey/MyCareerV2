@@ -1,4 +1,4 @@
-package local.cistest.vmdcs.base;
+package base;
 
 import local.cistest.vmdcs.admin.pageclasses.StartPage;
 import local.cistest.vmdcs.utilities.Constants;
