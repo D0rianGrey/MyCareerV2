@@ -738,4 +738,10 @@ public class CustomDriver {
         action.keyDown(key).build().perform();
         log.info("Key Pressed :: " + info);
     }
+
+    public Alert switchToAlert() {
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.alertIsPresent());
+        return driver.switchTo().alert();
+    }
 }

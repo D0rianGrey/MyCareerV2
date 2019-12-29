@@ -1,7 +1,9 @@
 package base;
 
 import local.cistest.vmdcs.admin.pageclasses.StartPage;
+import local.cistest.vmdcs.base.CustomDriver;
 import local.cistest.vmdcs.utilities.Constants;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -25,6 +27,6 @@ public class BaseTest {
 
     @AfterClass
     public void commonTearDown() {
-        //WebDriverFactory.getInstance().quitDriver();
+        WebDriverFactory.getInstance().quitDriver();
     }
 }
